@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Order Completion Tool</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+<h1>  Order Completion Tool</h1>
+<form action=COrder>
+<div>
+<label for="environment">Environment</label>
+</div>
+
+<div>
+<select id="env" name=devtestenv >
+  <option value="dev1">BM DevSI1- TOM Dev1</option>
+  <option value="dev2">BM DevSI2- TOM Dev2</option>
+  <option value="dev3">BM DevSI3- TOM Dev3</option>
+  <option value="Test1">BM PP1- TOM Test1</option>
+   <option value="Tes2">BM PP1- TOM Test2</option>
+  <option value="e2e">BM PP1- TOM E2E</option>
+</select><br></div>
+
+<div>
+
+ESHOP Order Number: <input id="orderno1" type="text" name="orderno"><br>
+</div>
+<div>
+Number of days to search: <input id="days1" type="text" name="days"><br>
+</div>
+<div>
+<input type="checkbox" id="martens1" name="martens">Martens<br>
+<input type="checkbox" id="ffwf1" name="ffwf">FFWF<br>
+<input type="checkbox" id="tom1" name="tom">TOM<br>
+<input type="checkbox" id="bill1" name="bill">Validate Bill<br>
+</div>
+
+<button id="btn1" type="submit">Complete Order</button>
+<button id="btn2" type="submit">Validate</button>
+</form>
+</body>
+</html>
